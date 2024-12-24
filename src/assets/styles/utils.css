@@ -1,0 +1,257 @@
+.border {
+    border: 1px solid black;
+}
+
+body {
+    margin: 0;
+}
+
+.public-width {
+    margin: auto;
+    width: 1200px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.padding {
+    padding: 10px 0;
+}
+
+.margin {
+    margin: auto;
+}
+
+.text {
+    text-align: center;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.h100 {
+    height: 100%;
+}
+
+.border-top {
+    border-top: 1px solid #DCDFE6;
+}
+
+.flex-jc-sb {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-jc-center {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-jc-end {
+    display: flex;
+    justify-content: end;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-ai-center {
+    display: flex;
+    align-items: center;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.flex-direction-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-container {
+    background-color: #3D3D3D;
+    height: 42px;
+}
+
+.top-container .content span {
+    color: #B0B0B0;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.top-container .content span.shop-car {
+    padding: 0 14px;
+    background-color: #424242;
+}
+
+.nav-container {
+    width: 100%;
+    height: 61px;
+    padding-top: 20px;
+}
+
+.nav-container .content {
+    border-bottom: 1px solid #DCDFE6;
+}
+
+.nav-container .content .left .nav-item {
+    font-size: 14px;
+    color: #909399;
+    padding: 0 25px;
+}
+
+.nav-container .content .left .nav-item.active {
+    color: #409EFF;
+    position: relative;
+}
+
+.nav-container .content .left .nav-item.active::after {
+    content: '';
+    background-color: #409EFF;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 38px;
+}
+
+.nav-container .content .right {
+    width: 300px;
+    height: 40px;
+    border: 1px solid #DCDFE6;
+    border-radius: 4px;
+}
+
+.nav-container .content .right input {
+    outline: none;
+    border: none;
+    width: 200px;
+    padding: 0 20px;
+}
+
+.nav-container .content .right .search-btn {
+    background-color: #f4f5f7;
+    flex: 1;
+    border-left: 1px solid #DCDFE6;
+    position: relative;
+    border: none;
+}
+
+.nav-container .content .right .search-btn img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* 登录注册 */
+.login {
+    display: none;
+}
+
+.register {
+    display: none;
+}
+
+.dialog .mask {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.dialog .content {
+    width: 306px;
+    height: 296px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px 0 30px;
+    box-sizing: border-box;
+}
+
+.dialog .content .top {
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.dialog .content .account {
+    height: 60px;
+}
+
+.dialog .content .password {
+    height: 60px;
+}
+
+.dialog .content div {
+    position: relative;
+}
+
+.dialog .content input {
+    padding: 0 30px;
+    width: 250px;
+    height: 40px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.dialog .content .err-msg {
+    font-size: 12px;
+    color: red;
+}
+
+.dialog .content img {
+    position: absolute;
+    top: 20px;
+    left: 9px;
+    transform: translateY(-50%);
+}
+
+.dialog .content .login-btn {
+    width: 250px;
+    height: 38px;
+    line-height: 38px;
+    background-color: #409EFF;
+    border-radius: 4px;
+    text-align: center;
+    color: white;
+}
+
+.bottom-container {
+    height: 336px;
+    color: white;
+    background-color: #2F2F2F;
+}
+
+.bottom-container .content {
+    height: 100%;
+    padding: 50px 20px;
+    box-sizing: border-box;
+}
+
+.bottom-container .top {
+    font-size: 20px;
+}
+
+.bottom-container .top div {
+    gap: 10px;
+}
+
+.bottom-container .end {
+    color: #888888;
+    gap: 15px;
+}
+
+.bottom-container .end span {
+    margin: 0 5px;
+}
